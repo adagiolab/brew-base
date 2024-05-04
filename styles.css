@@ -1,3 +1,11 @@
+/* Color Palette */
+.{ color: #A3AFBF; }
+.{ color: #D9BCA3; }
+.{ color: #BF7256; }
+.{ color: #59352D; }
+.{ color: #BF5349; }
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
