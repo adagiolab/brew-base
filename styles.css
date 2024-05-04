@@ -5,16 +5,15 @@
 .{ color: #59352D; }
 .{ color: #BF5349; }
 
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #F9F8F6;
 }
 
 header {
-    background-color: #fff;
+    background-color: #FFFFFF;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -22,64 +21,57 @@ header {
 
 h1 {
     margin: 0;
-    color: #333;
+    color: #5A5755;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.question {
+section {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: #333;
-}
-
-.question p {
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #E4E2E0;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #FFFFFF;
+    color: #5A5755;
+    margin-top: 10px;
 }
 
-button:hover {
-    background-color: #555;
+select:focus {
+    outline: none;
+    border-color: #999;
+}
+
+h2 {
+    color: #5A5755;
+}
+
+#profileResult {
+    padding: 10px;
+    border: 1px solid #E4E2E0;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #5A5755;
 }
 
 footer {
-    background-color: #fff;
+    background-color: #FFFFFF;
     padding: 10px;
     text-align: center;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    color: #333;
+    color: #5A5755;
 }
