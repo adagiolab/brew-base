@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Flavor Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Coffee Flavor Profile</h1>
+    </header>
+    <main>
+        <section id="coffeeSelection">
+            <h2>Select the country of your coffee beans:</h2>
+            <select id="regionSelect">
+                <!-- Options will be populated dynamically using JavaScript -->
+            </select>
+        </section>
+        <section id="flavorProfile">
+            <h2>Flavor Profile</h2>
+            <div id="profileResult">
+                <!-- Flavor profile details will be displayed here -->
+            </div>
+        </section>
+        <section id="additionalDetails">
+            <h2>Additional Details</h2>
+            <div>
+                <strong>Processing Method:</strong> <span id="processingMethodResult"></span>
+            </div>
+            <div>
+                <strong>Roast Level:</strong> <span id="roastLevelResult"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Coffee Flavor Profile</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
