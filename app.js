@@ -24,6 +24,36 @@ document.addEventListener("DOMContentLoaded", function() {
             spices: ["Clove", "Nutmeg", "Cardamom"],
             others: []
         },
+
+        {
+            country: "Colombia",
+            body: "Medium",
+            acidity: "Medium",
+            floral: [],
+            fruit: ["Citrus"],
+            spices: [],
+            others: ["Caramel", "Chocolate"]
+        },
+
+        {
+            country: "Ethiopia",
+            body: "Medium",
+            acidity: "Low",
+            floral: [],
+            fruit: ["Citrus", "Berries", "Lemon"],
+            spices: [],
+            others: []
+        },
+
+        {
+            country: "Costa Rica",
+            body: "Medium",
+            acidity: "High",
+            floral: [],
+            fruit: ["Citrus"],
+            spices: [],
+            others: ["Chocolate","Honey","Vanilla"]
+        },
         // Add more coffee data entries following the same pattern
     ];
 

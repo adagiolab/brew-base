@@ -6,10 +6,10 @@
 .{ color: #BF5349; }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F9F8F6;
+    background-color: #59352D;
 }
 
 header {
@@ -68,7 +68,8 @@ h2 {
 footer {
     background-color: #FFFFFF;
     padding: 10px;
-    text-align: center;
+    font-size: 10px;
+    text-align: right;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
